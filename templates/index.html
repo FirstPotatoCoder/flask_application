@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <!-- Chatbox (messages) -->
+    <div class="ChatBox" id="chatbox">
+        <!-- Chat messages will appear here -->
+    </div>
+
+    <!-- Input area -->
+    <div class="main">
+        <div class="top">
+            <textarea class="messagebox" id="messagebox" placeholder="Enter Message"></textarea>
+        </div>
+        <div class="bottom">
+            <button class="odds" id="send-button">
+                <img class="even" src="https://cdn-icons-png.flaticon.com/512/55/55008.png" alt="Submit">
+            </button>
+        </div>
+    </div>
+    
+    <p class = "footer">Hello</p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script
+</body>
+</html>
